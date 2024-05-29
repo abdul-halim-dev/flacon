@@ -1,0 +1,335 @@
+/*=========== Header responsive css start ========== */
+@media screen and (max-width: 894px) {
+   nav {
+      display: none;
+      width: 100%;
+      height:350px;
+      background-color: rgb(141, 141, 141);
+      position: absolute;
+      left: 0%;
+      top: 100%;
+      padding-top: 15px;
+      z-index: 444;
+   }
+
+   #cross {
+      position: absolute;
+      top: 5%;
+      right: 5%;
+      display: flex;
+      cursor: pointer;
+   }
+
+   #cross span {
+      font-size: 22px;
+      font-weight: 600;
+   }
+
+   #cross span:hover {
+      color: var(--theme-bg2);
+   }
+
+   nav ul {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 1rem;
+   }
+
+   .menu-bar span {
+      display: flex;
+   }
+}
+
+@media screen and (max-width: 336px) {
+   header {
+      gap: 1rem;
+   }
+   .menu-bar span {
+      background-color: rgb(47, 49, 50);
+   }
+}
+
+/*=========== Header responsive css start ========== */
+
+/*============ Hero section responsive start ============== */
+
+@media screen and (max-width: 766px){
+   #hero-section{ 
+     background: url(../vendor/card-img/hero10.jpg) no-repeat center center / cover;
+  }
+}
+
+@media screen and (max-width: 640px){
+   .hero-left-text{
+   padding-top:0px;
+  }
+  .left-email-cont{
+   flex-direction: column;
+   gap: 1rem;
+  
+  }
+  h1{
+   font-size: 32px
+  };
+}
+
+@media screen and (max-width: 630px){
+   #hero-section{ 
+     background: url(../vendor/card-img/hero11.jpg) no-repeat center center / cover;
+  }
+}
+/*============ Hero section responsive end ============== */
+
+/*=============  About us section responsive start =========== */
+@media screen and (max-width:1148px){
+   .about-us-left {
+      width: 100%;
+   }
+   .about-us-right {
+      width: 100%; 
+   }
+   .about-us-container {
+     flex-direction: column;
+   }
+   .about-phone-container {
+      flex-direction: column;
+   }
+   .about-phonee {
+      width: 100%; 
+   }
+}
+
+@media screen and (max-width:424px){
+   #about-us {
+      padding: 100px 25px 25px; 
+   }
+}
+
+@media screen and (max-width:390px){
+   .about-phonee {
+      flex-direction: column;
+      gap: 0.5rem;
+   }
+}
+
+@media screen and (max-width:1266px){
+   .customer-card {
+      width: 540px;
+      padding: 20px;
+      align-items: center;
+      justify-content: center;
+   }
+}
+
+@media screen and (max-width:1198px){
+   .customer-card {
+      width: 500px;
+      padding: 20px;
+      align-items: center;
+      justify-content: center;
+   }
+   .customer-card-container {
+      align-items: center;
+      justify-content: center;
+   }
+}
+
+@media screen and (max-width:1110px){
+   .customer-card {
+      width: 450px;
+   }
+}
+
+@media screen and (max-width:1010px){
+   .customer-card {
+      width: 380px;
+   } 
+}
+
+@media screen and (max-width:924px){
+   .customer-card {
+      width: 800px;
+   }
+}
+
+@media screen and (max-width:676px){
+   .customer-card {
+      width: 539px;
+   } 
+}
+
+@media screen and (max-width:930px){
+   .experience-section {
+     flex-direction: column;
+   }
+}
+
+@media screen and (max-width:930px){
+   .experience-one{
+      width: 100%;
+      padding: 15px;
+   }
+   .experience-two {
+      width: 100%;
+      padding: 15px;
+   }
+}
+
+@media screen and (max-width:500px){
+   .experience-one{
+      padding: 15px;
+   }
+   .experience-two {
+      padding: 15px;
+   }
+}
+
+/*=============  About us section responsive end =========== */
+
+
+/*============= My services responsive section start ========== */
+@media screen and (max-width:1050px){
+   .main-services-card {
+    width: 48%;  
+   }
+}
+ 
+@media screen and (max-width:888px){
+   .main-services-card {
+      width: 100%;
+   }
+   .services-card-container {
+      align-items: center;
+      justify-content: center;
+   }  
+}
+
+@media screen and (max-width:740px){
+   .image-partt {
+      min-height: auto;
+   }
+   .main-services-card {
+      padding: 20px;
+   }
+}
+ 
+ @media screen and (max-width:424px){
+   #my-services {
+      padding: 100px 25px 25px;
+      
+   } 
+}
+
+/*============= My services responsive section end ========== */
+
+
+/*=========== My project responsive start ============= */
+@media screen and (max-width:1048px){
+   .project-main-card {
+      width: 48%;
+   }
+}
+@media screen and (max-width:888px){
+   .project-main-card {
+      width: 100%;
+    
+   }
+   .project-image {
+    max-height: 250px;
+   }
+}
+
+@media screen and (max-width:424px){
+   #project-section {
+      padding: 70px 25px 25px;
+      
+   } 
+   .project-image {
+      max-height:auto;
+     }
+}
+/*=========== My project responsive start ============= */
+
+/*=========== testimonial responsive section start =========== */
+/* @media screen and (max-width:960px){
+   .testimonail-card{
+      width: 400px;
+   }
+} */
+
+
+/*=========== testimonial responsive section end =========== */
+
+
+/* ========= contact us responseve section start ========= */
+
+@media screen and (max-width:1070px){
+   .contact-container{
+     flex-direction: column;
+  }
+
+  .contact-us-left{
+   width: 100%;
+}
+  .contact-us-right{
+   width: 100%;
+}
+}
+
+@media screen and (max-width:522px){
+   
+
+   .name-input {
+    flex-direction: column;
+   }
+   .name-input [type="text"], [type="email"] {
+      width: 100%;
+    
+   }
+   .contact-us-left{
+     padding: 20px;
+   }
+     .contact-us-right{
+      padding: 20px;
+   }
+   
+}
+
+@media screen and (max-width:424px){
+   #contact-us-cont {
+      padding: 100px 25px 25px;
+      
+   } 
+   .project-image {
+      max-height:auto;
+     }
+}
+/* ========= contact us responseve section end ========= */
+
+/*============== cosmetic section responsive start ================= */
+
+@media screen and (max-width:1114px){
+   .website-main-container{
+     flex-direction: column;
+   }
+   .website-left{
+      width: 100%;
+  }
+  .website-right{
+   width: 100%;
+}
+}
+
+@media screen and (max-width:1114px){
+   #website_app{
+      padding: 100px 25px 25px;
+  }
+}
+
+
+
+/*============== cosmetic section responsive end ================= */
+
+
